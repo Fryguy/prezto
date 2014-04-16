@@ -69,3 +69,8 @@ fi
 # Prevent zsh from baiing when it fails to match a glob pattern.  This
 # particularly effects the git's ^ syntax (e.g. HEAD^).
 setopt NO_NOMATCH
+
+# chruby
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh
+chruby 1.9
