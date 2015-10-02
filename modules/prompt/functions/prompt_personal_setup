@@ -10,7 +10,7 @@ function prompt_personal_setup {
   # add-zsh-hook precmd prompt_personal_precmd
 
   # Define prompts.
-  PROMPT='%F{green}%D{%I:%M:%S} %B%F{yellow}%~%F{red}$(__git_ps1) %F{cyan}(${${RUBY_ROOT#~/.rubies/}#ruby-}) %b%f%(?,👍  ,👎  )'
+  PROMPT='%F{green}%D{%I:%M:%S} %B%F{yellow}%~%F{red}$(__git_ps1) %F{cyan}(${${RUBY_ROOT#~/.rubies/}#ruby-}) %b%f%(?,☀️  ,☔️  )'
   RPROMPT=''
   SPROMPT='zsh: correct %F{red}%R%f to %F{green}%r%f [nyae]? '
 }
