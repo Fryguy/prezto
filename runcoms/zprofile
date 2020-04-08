@@ -74,5 +74,5 @@ setopt NO_NOMATCH
 if [ -e "/usr/local/share/chruby/chruby.sh" ]; then
 	source /usr/local/share/chruby/chruby.sh
 	source /usr/local/share/chruby/auto.sh
-	chruby 2.5
+	chruby 2.6
 fi
